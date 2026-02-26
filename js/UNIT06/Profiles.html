@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    #nav1{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #0c0b0b;
+        color: #ccc;
+        justify-content: space-between;
+    }
+    #lg1{
+        margin: 0;
+        margin-right: 10px;
+        border-radius: 40px;
+        background-color: rgb(138, 121, 121);
+        height: 30px;
+    }
+    #nav2{
+        display: flex;
+        align-items: center;
+        justify-items: auto;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    #h1{
+       color: rgb(199, 0, 0);
+    }
+    #p{
+        color: cyan;
+    }
+    ul {
+        list-style: none;
+    }
+    .profile{
+        width: 90%;
+        max-width: 900px;
+        margin: 50px auto;
+        background: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: 0 15px 40px rgba(0,0,0,1);
+        text-align: center;
+    }
+    .cover{
+        height: 300px;
+        background: url(bgs.jpg) center no-repeat;
+        position: relative;
+    }
+    .profile-img{
+        margin-top:100px ;
+    }
+    .profile-img img{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 8px  solid #fff;
+        box-shadow: 0 10px 25px rgba(0,0,0,2);
+    }
+    .profile-info{
+        padding: 20px 30px 40px;
+    }
+    .profile-info h2{
+        font-size: 28px;
+        margin-bottom: 8px;
+
+    }
+    .profile-info p{
+        color: #666;
+        margin: 5px 0;
+    }
+</style>
+<body>
+    <nav>
+        <div id="nav1">
+     <h1 id = "h1">ABES EC</h1>
+     
+      <p  id="p"> | Profiles Overview |</p>
+     
+     <div id="nav2">
+        <ul>
+            <li>Dravin  Chandra</li>
+            <li>Last login: Feb 22 -2026</li>
+        </ul>
+        <div class="img">        <span  id="lg1"><img src="" alt=" loading"></span>
+        <span > <img src="bullet-point.png" alt="" height="30px"></span>
+        <span ><img src="logout (1).png" alt="" height="30px"></span> </div>
+
+     </div>
+    </nav>
+   <section class ="profiles">
+    <div class="cover"></div>
+     <div class=" profiles-img">
+        <img src="sky.jpg" alt=" profiles">
+     </div>
+     <div class ="profiles-info">
+        <h2>Dravin Chandra</h2>
+        <p>Web Developer and Freelancer</p>
+     </div>
+   </section>
+    
+</body>
+</html>
