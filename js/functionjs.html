@@ -104,15 +104,79 @@ myPromise
     async function userData(){
        try{
 
-        let respone = fetch('https://dummyjson.com/products')
-        let responseData = await respone.josn();
+        let response = fetch('https://dummyjson.com/products')
+        let responseData = await response.josn();
         console.log(responseData);
        }
        catch(error){
         console.log(error);
        }
     }
+    //high order function
+
+
+    //map
+    let num =[1,5,2,6,32,5];
+    let square  = num.map(n=>n*2);
+    console.log(sqare);
+
+    //redce:- the reduce function accumulates array elements into a singal value based on a callback function
+    //reduce:-The reduce function accumulates array elements into a single value based on a callback function.
+let sum=num.reduce((total,n)=>total+n);
+console.log(sum);
+
+   // for each
+   // The for each function executes a provided function once for each array element.
+   num.forEach((n) =>console.log(n * 2));
+
+   //IIFE:-Is a JavaScript function that runs as soon as it is defined.
+   (function(){
+    console.log("modern JS");
+   })();
+   // short code for above code using arrrow 
+
+   (msg=console.log("Hello React"))();
+
+   let userInfo={
+    name:'Dravin',
+    age:20,
+    mob:96856432,
+    Email:"dravinchandr54gmail.com" 
+
+   };
+
+    
+   
+     a                                                                                                                          
     </script>
     
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

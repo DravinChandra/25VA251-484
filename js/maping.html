@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>\
+   <script>
+    let userInfo ={
+        name : "dravin",
+        age : 20,
+        email :"dravinchandra54@gmail.com",
+    };
+    
+    localStorage.selten('userInfo',JSON.stringify(userInfo));
+    //retrive the string
+    const saveduser = JSON.parse(localStorage);
+   </script>
+</body>
+</html>
